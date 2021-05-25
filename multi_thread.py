@@ -27,7 +27,10 @@ def main():
         t.start()
         thread_list.append(t)
     # 全スレッドの終了を待ち受ける
-    for thread i
+    for thread in thread_list:
+        thread.join()
+    print("終了")
+
     
 if __name__ == "__main__":
     main()
