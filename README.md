@@ -13,5 +13,5 @@ pip install -r requirements.txt
 
 以下のコマンドで実行
 ```
-pyhon multi_thread.py
+pyhon main.py
 ```
